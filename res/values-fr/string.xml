@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">formulaire</string>
+    <string name="app_geoloc">géolocalisation</string>
+    <string name="app_company">Entreprise</string>
+    <string name="app_book">Livres</string>
+    <string name="ETName">Nom</string>
+    <string name="ETLastName">Prénom</string>
+    <string name="LVcivility">Civilité</string>
+    <string name="BTviewSub">afficher</string>
+    <string name="Bgeoloc">afficher sa position</string>
+    <string name="Bbook">afficher la bibliothèque</string>
+    <string name="Bcompany">afficher la liste des entreprises</string>
+	<string name="SPcivility">Choisir civilité</string>
+    <string-array name="SAcivility">
+        <item>Monsieur</item>
+        <item>Madame</item>
+    </string-array>
+    
+</resources>

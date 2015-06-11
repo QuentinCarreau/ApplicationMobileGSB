@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<EditText android:id="@+id/wETname"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/ETName" />
+	
+	<EditText android:id="@+id/wETlastName"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/ETLastName" />
+	
+	<Spinner 
+	    android:id="@+id/wScivility"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"/>
+	
+	<Button 
+	    android:id ="@+id/wBTsubView"
+	    android:onClick="wBTsubView_onclick"
+	    android:name="@string/BTviewSub"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+
+    
+
+</LinearLayout>
